@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  
+
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
-    <version>8</version>
+    <version>9</version>
   </parent>
-  
+
   <groupId>org.jboss.spec.javax.management.j2ee</groupId>
   <artifactId>jboss-j2eemgmt-api_1.1_spec</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1.Final-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>JavaEE Management 1.1 API</name>
-  <description>JSR-77 JavaEE Management 1.1 API classes</description>
-  
+  <name>Java EE Management 1.1 API</name>
+  <description>JSR-77: Java (TM) EE Management 1.1 API</description>
+
   <licenses>
     <license>
       <name>lgpl</name>
@@ -30,14 +30,14 @@
     <developerConnection>scm:git:git@github.com:jboss/jboss-j2eemgmt-api_spec.git</developerConnection>
     <url>https://github.com/jboss/jboss-j2eemgmt-api_spec</url>
   </scm>
-  
- <dependencies>
-     <dependency>
-        <groupId>org.jboss.spec.javax.ejb</groupId>
-        <artifactId>jboss-ejb-api_3.1_spec</artifactId>
-        <version>1.0.1.Final</version>
-        <scope>provided</scope>
-     </dependency>
- </dependencies>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.jboss.spec.javax.ejb</groupId>
+      <artifactId>jboss-ejb-api_3.1_spec</artifactId>
+      <version>1.0.2.Final</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
 
 </project>
