@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
-    <version>9</version>
+    <version>25</version>
   </parent>
 
   <groupId>org.jboss.spec.javax.management.j2ee</groupId>
@@ -16,6 +16,11 @@
 
   <name>Java EE Management 1.1 API</name>
   <description>JSR-77: Java (TM) EE Management 1.1 API</description>
+
+  <properties>
+    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.7</maven.compiler.source>
+  </properties>
 
   <licenses>
     <license>
@@ -51,6 +56,9 @@
             <manifest>
               <addDefaultSpecificationEntries>false</addDefaultSpecificationEntries>
             </manifest>
+            <manifestEntries>
+              <Automatic-Module-Name>beta.jboss.j2eemgmt.api_1_1</Automatic-Module-Name>
+            </manifestEntries>
           </archive>
           <instructions>
             <Specification-Title>JSR-77: Java (TM) EE Management 1.1 API</Specification-Title>
@@ -93,8 +101,8 @@
   <dependencies>
     <dependency>
       <groupId>org.jboss.spec.javax.ejb</groupId>
-      <artifactId>jboss-ejb-api_3.1_spec</artifactId>
-      <version>1.0.2.Final</version>
+      <artifactId>jboss-ejb-api_3.2_spec</artifactId>
+      <version>1.0.1.Final</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
