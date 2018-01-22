@@ -11,7 +11,7 @@
 
   <groupId>org.jboss.spec.javax.management.j2ee</groupId>
   <artifactId>jboss-j2eemgmt-api_1.1_spec</artifactId>
-  <version>1.0.2.Final-SNAPSHOT</version>
+  <version>1.0.2.Final</version>
   <packaging>jar</packaging>
 
   <name>Java EE Management 1.1 API</name>
@@ -34,6 +34,7 @@
     <connection>scm:git:git@github.com:jboss/jboss-j2eemgmt-api_spec.git</connection>
     <developerConnection>scm:git:git@github.com:jboss/jboss-j2eemgmt-api_spec.git</developerConnection>
     <url>https://github.com/jboss/jboss-j2eemgmt-api_spec</url>
+    <tag>jboss-j2eemgmt-api_1.1_spec-1.0.2.Final</tag>
   </scm>
 
   <build>
